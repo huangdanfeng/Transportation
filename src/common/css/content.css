@@ -1,0 +1,296 @@
+.content{
+    width: 100%;
+    color: #fff
+}
+.content .banner{
+    background: #3db39e;
+    min-width: 480px
+}
+
+.content .text{
+    width: 350px;
+    margin: 0 auto;
+    height: 370px;
+    text-align: left;
+    padding-left: 35px
+}
+
+.content .text .title{
+    padding: 78px 0 15px 0;
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.content .text .desc{
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 18px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.9)
+}
+
+.content .text .button{
+    padding-bottom: 30px;
+}
+
+.content .text button{
+    color: #26a6d1;
+    font-weight: bold;
+    font-size: 12px
+}
+
+.content .text .large{
+    font-size: 16px;
+    padding: 10px 35px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+.content .text .button span{
+    display: inline-block;
+    margin-left: 32px;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: underline
+}
+
+.content .text span:hover{
+    color: #ccc;
+    cursor: pointer;
+}
+
+.content .phone{
+    height: 592px;
+    text-align: center
+}
+.content .phone img{
+    width: 315px;
+    height: 550px;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    margin-right: -158px
+
+}
+
+.content .context{
+    color: #7d7d7d
+}
+
+.content .context .title{
+    color: #324d5b;
+    font-size: 26px;
+    text-align: center;
+    margin: 55px 78px 20px 78px
+
+}
+
+.content .context .img{
+    width: 148px;
+    height: 138px;
+    margin: 13px auto 0 auto;
+}
+
+.content .context .desc{
+    font-size: 10px;
+    text-align: center;
+    width: 230px;
+    margin: 13px auto 0 auto;
+    padding-bottom: 55px
+
+}
+.content .context .descition{
+    color: #7d7d7d;
+    font-size: 10px;
+    text-align: center;
+    padding: 0
+}
+
+.content .slider{
+    height: 806px;
+    background: #f6f6f6
+}
+
+.content .slider .text{
+    position: absolute;
+    top: -280px;
+    left: 50%;
+    margin-left: -175px
+}
+
+.content .slider .image{
+    height: 283px;
+}
+.carousel-inner{
+    width: 336px;
+}
+
+.content .slider img{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    top: 442px;
+    width: 326px;
+    height: 364px;
+    margin-left: -163px
+}
+.content .slider .text .title{
+    color: #324d5b;
+    width: 336px;
+    font-size: 28px;
+    padding-top: 22px
+}
+
+.content .slider .text .desc{
+    color: #868686;
+    width: 336px;
+    font-size: 10px;
+}
+
+.content .impact .title{
+    color: #324d5b;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 58px
+}
+
+.content .impact .desc{
+    color: #6a6a6a;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    padding: 10px 15% 60px 15%
+}
+
+.content .subsribe{
+    min-width: 480px;
+    height: 286px;
+    text-align: center;
+    background: #26a6d1;
+
+}
+
+.content .subsribe .title{
+    font-size: 28px;
+    text-align: center;
+    padding-top: 55px;
+}
+
+.content .subsribe .input-lg{
+    font-size: 16px;
+}
+.content .subsribe button{
+    color: #5cbcdc;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.content .subsribe .desc{
+    font-size: 14px;
+    padding: 25px 15% 0 15%;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.form-inline .form-control {
+    width: auto
+}
+
+@media screen and (min-width: 480px) {
+    .content .slider{
+        display: block;
+    }
+}
+@media screen and (min-width: 768px) {
+    .content .phone img{
+        right: 35px;
+        margin-right: 0;
+        width: 167px;
+        height: 275px
+    }
+
+    .content .text{
+        margin: 0;
+        height: 317px
+    }
+
+    .content .text .title{
+        font-size: 30px;
+        line-height: 33px;
+    }
+
+    .content .text .desc{
+        font-size: 10px;
+        padding-bottom: 18px;
+        text-align: left;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.8)
+    }
+
+    .content .text button{
+        font-weight: bold;
+        font-size: 12px
+    }
+
+    .content .text .large{
+        font-size: 12px;
+        font-weight: bold;
+        padding: 10px 15px
+    }
+
+    .content .text .button span{
+        font-size: 12px
+    }
+
+    .content .phone{
+        height: 317px
+    }
+
+    .content .context .descition{
+        padding: 0 20%
+    }
+
+    .content .slider .text{
+        position: static;
+        margin-left: 0;
+    }
+
+    .content .slider img{
+        width: 326px;
+        height: 223px;
+        left: 50px;
+        margin-left: 0;
+        top: auto;
+    }
+
+    .carousel-indicators{
+        text-align: left;
+    }
+
+    .content .slider{
+        height: 283px;
+    }
+
+    .content .slider .text .title{
+        font-size: 24px;
+        font-weight: 100;
+        padding: 0;
+    }
+
+    .content .impact .desc{
+        font-size: 10px;
+        padding: 10px 24% 60px 24%
+    }
+
+    .form-inline .form-control {
+        width: 380px
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .form-inline .form-group {
+        display: inline-block;
+    }
+}

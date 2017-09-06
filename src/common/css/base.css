@@ -1,0 +1,43 @@
+body{
+    font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvtica-Light', Arial, sans-serif
+}
+
+.clear{
+    display : inline-block
+}
+.clearfix:after {
+    display: block;
+    content: '.';
+    height: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.common-height{
+    max-width: 1200px;
+    min-width: 480px;
+    margin: auto
+}
+
+.margin-left {
+    display: inline-block;
+    margin-left: 13px
+}
+
+.carousel-indicators li{
+    background-color: #ccd0d2
+}
+
+.carousel-indicators .active {
+    background-color: #3db39e;
+}
+
+.carousel-indicators{
+    width: 336px;
+    position: static;
+    padding-top: 75px;
+    margin-left: 0;
+    text-align: center;
+
+}
