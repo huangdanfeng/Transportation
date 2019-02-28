@@ -2,7 +2,7 @@
   
   **<font size=6>简介</font>**
   
-  bootstrap 页面
+  bootstrap    静态页面
 
 
   **<font size=6>启动</font>**
